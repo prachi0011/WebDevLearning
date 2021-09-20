@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: red; */
+}
+table, tr, td{
+    border-bottom: 1px solid rgb(207, 201, 201);
+    border-collapse: collapse;
+    height: 35px;
+    border-spacing: 14px;
+}
+td{
+    padding: 0px 10px;
+}
+.fa-caret-square-o-down{
+}
+.archive, .trash, .read, .snooze{
+    display: none;
+    font-size: 20px;
+    color: grey;
+    border-bottom: 0ch;
+    background-color: rgb(245, 245, 245);
+}
+tr:hover .time{
+    visibility: hidden;
+    
+}
+tr:hover{
+    height: 40px;
+    box-shadow: 1px 2px 1px rgb(216, 212, 212);
+    background-color: rgb(245, 245, 245);
+}
+tr:hover .archive{
+    display: inline;
+    margin-left: -120px;
+}
+tr:hover .trash{
+    display: inline;
+    /* margin-left: -90px; */
+}
+tr:hover .read{
+    display: inline;
+    /* margin-left: -80px; */
+}
+tr:hover .snooze{
+    display: inline;
+    /* margin-left: -70px; */
+}
